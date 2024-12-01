@@ -76,10 +76,10 @@ individual_data = []
 data = []
 
 # Validación del JSON
-print("\n------ Rules Validation (Collected data) ------")
+print("\n------ Validacion Reglas ------")
 try:
     result = parser.parse(json_string)
-    print("\n------ Complete Structure ------\n")
+    print("\n------ Estructura ------\n")
     print(json.dumps(result, indent=4))  # Imprime datos procesados en formato JSON
     data = result  # Guarda los datos procesados
 except Exception as e:
@@ -87,7 +87,7 @@ except Exception as e:
 
 # Exportación a CSV
 if len(data) > 0:
-    with open("employees.csv", "w") as archivo:
+    with open("grades.csv", "w") as archivo:
         # Encabezados del CSV
         archivo.write("ID,Name,Course,Grades,Average\n")
         for record in data:
@@ -95,4 +95,4 @@ if len(data) > 0:
                 f'{record["id"]},"{record["name"]}","{record["course"]}",'
                 f'"{",".join(map(str, record["grades"]))}",{record["average"]}\n'
             )
-    print("Data successfully exported to employees.csv")
+    print("Se logró")
