@@ -1,4 +1,5 @@
 import ply.lex as lex
+import json
 
 # Define tokens
 tokens = (
@@ -64,3 +65,20 @@ def t_error(t):
 
 # Build the lexer
 lexer = lex.lex()
+
+# Main section for testing
+if __name__ == "__main__":
+    with open('input.json', 'r') as json_file:
+      json_string = json_file.read()
+    print("\n\n------ Complete Structure ------\n\n\n" + json_string + "\n\n------Validation ------\n")
+
+    input_str = ' '
+    while input_str != '':
+        input_str = json_string
+
+        if input_str != '':
+            lexer.input(input_str)
+
+            for tok in lexer:
+                print(tok)
+        break

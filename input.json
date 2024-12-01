@@ -2,70 +2,70 @@
     {
         "id": 1,
         "name": "Nicolas Navarro",
-        "course": "BDNR",
+        "course": "Bases de Datos No Relacionales",
         "grades": [85, 90, 78],
         "average": 84.33
     },
     {
         "id": 2,
         "name": "José León",
-        "course": "Estrategias algoritmicas",
+        "course": "Estrategias Algorítmicas",
         "grades": [88, 92, 80],
         "average": 86.67
     },
     {
         "id": 3,
         "name": "Memo",
-        "course": "Etica",
+        "course": "Ética Profesional en TI",
         "grades": [100, 100, 100],
         "average": 100
     },
     {
         "id": 4,
         "name": "Andrea Martínez",
-        "course": "Matemáticas",
+        "course": "Matemáticas Discretas",
         "grades": [75, 80, 85],
         "average": 80.00
     },
     {
         "id": 5,
         "name": "Luis Fernández",
-        "course": "Física",
+        "course": "Física para Computación",
         "grades": [92, 88, 91],
         "average": 90.33
     },
     {
         "id": 6,
         "name": "Carla Gómez",
-        "course": "Programación",
+        "course": "Programación Orientada a Objetos",
         "grades": [89, 94, 90],
         "average": 91.00
     },
     {
         "id": 7,
         "name": "Pablo Herrera",
-        "course": "Historia",
+        "course": "Historia de la Computación",
         "grades": [85, 87, 82],
         "average": 84.67
     },
     {
         "id": 8,
         "name": "Mariana López",
-        "course": "Arte",
+        "course": "Diseño de Interfaces de Usuario",
         "grades": [95, 92, 96],
         "average": 94.33
     },
     {
         "id": 9,
         "name": "Fernando Ruiz",
-        "course": "Literatura",
+        "course": "Lenguajes de Programación",
         "grades": [78, 82, 80],
         "average": 80.00
     },
     {
         "id": 10,
         "name": "Valeria Santos",
-        "course": "Ciencias Sociales",
+        "course": "Inteligencia Artificial",
         "grades": [88, 91, 85],
         "average": 88.00
     }
