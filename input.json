@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Nicolas Navarro",
+        "course": "BDNR",
+        "grades": [85, 90, 78],
+        "average": 84.33
+    },
+    {
+        "id": 2,
+        "name": "José León",
+        "course": "Estrategias algoritmicas",
+        "grades": [88, 92, 80],
+        "average": 86.67
+    }
+]
