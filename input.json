@@ -12,5 +12,61 @@
         "course": "Estrategias algoritmicas",
         "grades": [88, 92, 80],
         "average": 86.67
+    },
+    {
+        "id": 3,
+        "name": "Memo",
+        "course": "Etica",
+        "grades": [100, 100, 100],
+        "average": 100
+    },
+    {
+        "id": 4,
+        "name": "Andrea Martínez",
+        "course": "Matemáticas",
+        "grades": [75, 80, 85],
+        "average": 80.00
+    },
+    {
+        "id": 5,
+        "name": "Luis Fernández",
+        "course": "Física",
+        "grades": [92, 88, 91],
+        "average": 90.33
+    },
+    {
+        "id": 6,
+        "name": "Carla Gómez",
+        "course": "Programación",
+        "grades": [89, 94, 90],
+        "average": 91.00
+    },
+    {
+        "id": 7,
+        "name": "Pablo Herrera",
+        "course": "Historia",
+        "grades": [85, 87, 82],
+        "average": 84.67
+    },
+    {
+        "id": 8,
+        "name": "Mariana López",
+        "course": "Arte",
+        "grades": [95, 92, 96],
+        "average": 94.33
+    },
+    {
+        "id": 9,
+        "name": "Fernando Ruiz",
+        "course": "Literatura",
+        "grades": [78, 82, 80],
+        "average": 80.00
+    },
+    {
+        "id": 10,
+        "name": "Valeria Santos",
+        "course": "Ciencias Sociales",
+        "grades": [88, 91, 85],
+        "average": 88.00
     }
 ]
